@@ -1,2 +1,2 @@
 # Python
-Repo of my Python Scripts ....
+My Python Scripts .... (Learning)
