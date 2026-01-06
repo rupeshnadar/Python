@@ -6,7 +6,9 @@ pin = int(input("Enter ATM Pin: "))
 if pin == correct_pin:
     withdr = int(input("Amount to Withdraw: "))
 
-    if withdr <= balance:
+    if withdr <= 0:
+        print("Thank you for using ATM")
+    elif withdr <= balance:
         balance = balance - withdr
         print("Collect Money ....")
         print(f"Remaining Balance: {balance}")
